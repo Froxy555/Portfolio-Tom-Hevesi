@@ -9,10 +9,10 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiNextdotjs,
-  SiCsharp
+  SiCsharp,
+  SiFlask
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
 
 function Techstack() {
   return (
@@ -35,11 +35,12 @@ function Techstack() {
         <DiReact />
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />

@@ -15,6 +15,7 @@ function AboutCard() {
             Furthermore, in my spare time I like to program in all kinds of fields!
             <br />
             <br />
+            I also like:
           </p>
           <ul>
             <li className="about-activity">
@@ -29,9 +30,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Nothing makes me happier than spending all day on the computer programming to automatically do a task that I could do by hand in 10 seconds."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Douglas Adams</footer>
         </blockquote>
       </Card.Body>
     </Card>
