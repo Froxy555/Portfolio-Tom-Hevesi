@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Hevesi Tamas </span>
-            from <span className="purple"> Mateszalka, Hungary.</span>
+            Hi Everyone, I am <span className="purple">Hevesi Tamas</span>
+            , 18 years old from <span className="purple"> Mateszalka, Hungary.</span>
             <br /> I am a third-year student in the software development/testing department at MSZC.
             <br />
             Furthermore, in my spare time I like to program in all kinds of fields!
