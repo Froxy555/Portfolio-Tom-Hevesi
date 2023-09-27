@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import weather from "../../Assets/Projects/weather.png";
+import petshop from "../../Assets/Projects/petshop.png";
 import codeforces from "../../Assets/Projects/codeforces.png";
 import flask from "../../Assets/Projects/flask.png";
 import linktree from "../../Assets/Projects/linktree.png";
@@ -40,6 +41,17 @@ function Projects() {
               description="Website made with Python Flask, where you can add/delete notes by logging in/registering."
               ghLink="https://github.com/Froxy555/Python-Flask-ToDowithLogin/tree/main"
               demoLink="http://froxy555.pythonanywhere.com/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={petshop}
+              isBlog={false}
+              title="Pet Webshop"
+              description="A webshop designed for school project work, which deals with selling animals and providing services."
+              ghLink="https://github.com/Froxy555/LilDuck-Pet-Shop"
+              demoLink="https://lil-duck-pet-shop.vercel.app"
             />
           </Col>
 
