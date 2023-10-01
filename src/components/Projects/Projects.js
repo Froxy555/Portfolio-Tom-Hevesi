@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import weather from "../../Assets/Projects/weather.png";
 import petshop from "../../Assets/Projects/petshop.png";
+import todo from "../../Assets/Projects/todo.png";
 import codeforces from "../../Assets/Projects/codeforces.png";
 import flask from "../../Assets/Projects/flask.png";
 import linktree from "../../Assets/Projects/linktree.png";
@@ -52,6 +53,17 @@ function Projects() {
               description="A webshop designed for school project work, which deals with selling animals and providing services."
               ghLink="https://github.com/Froxy555/LilDuck-Pet-Shop"
               demoLink="https://lil-duck-pet-shop.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="ToDo app"
+              description="A page where you can write reminders, daily tasks, which can then be ticked off when completed. "
+              ghLink="https://github.com/Froxy555/ToDo-React-Froxy555"
+              demoLink="https://todo-froxy555.vercel.app"
             />
           </Col>
 
