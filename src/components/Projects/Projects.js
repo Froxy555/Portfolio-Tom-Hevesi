@@ -36,6 +36,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={expense}
+              isBlog={false}
+              title="Expense Tracker"
+              description="A website where you can enter your income and expenses and analyze them statistically (max, min, atlag, etc.)"
+              ghLink="https://github.com/Froxy555/Expense-Tracker"
+              demoLink="https://expense-tracker-one-theta.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={flask}
               isBlog={false}
               title="Notes App"
