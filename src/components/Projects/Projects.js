@@ -9,6 +9,7 @@ import codeforces from "../../Assets/Projects/codeforces.png";
 import flask from "../../Assets/Projects/flask.png";
 import linktree from "../../Assets/Projects/linktree.png";
 import info from "../../Assets/Projects/info.png";
+import expense from "../../Assets/Projects/expense.png";
 
 
 function Projects() {
