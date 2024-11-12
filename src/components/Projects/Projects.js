@@ -10,7 +10,7 @@ import flask from "../../Assets/Projects/flask.png";
 import linktree from "../../Assets/Projects/linktree.png";
 import info from "../../Assets/Projects/info.png";
 import expense from "../../Assets/Projects/expense.png";
-import expense from "../../Assets/Projects/survey.png";
+import survey from "../../Assets/Projects/survey.png";
 
 
 
