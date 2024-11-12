@@ -10,6 +10,8 @@ import flask from "../../Assets/Projects/flask.png";
 import linktree from "../../Assets/Projects/linktree.png";
 import info from "../../Assets/Projects/info.png";
 import expense from "../../Assets/Projects/expense.png";
+import expense from "../../Assets/Projects/survey.png";
+
 
 
 function Projects() {
@@ -24,6 +26,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={survey}
+              isBlog={false}
+              title="Conference Survey App"
+              description=" Survey of II. Tech. Intelligens Konferecia 2024, which allows you to collect and view feedback on six topics using QR codes and a responsive interface."
+              ghLink="https://github.com/Froxy555/Tech4Study_Survey"
+              demoLink="https://tech4study.netlify.app"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={weather}
